@@ -15,10 +15,17 @@ data/raw/*
 data/interim/*
 data/processed/*
 data/external/*
+
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 !data/external/.gitkeep
+
+# Allow DVC tracking files
+!data/raw/*.dvc
+!data/interim/*.dvc
+!data/processed/*.dvc
+!data/external/*.dvc
 
 # Model artifacts
 artifacts/*

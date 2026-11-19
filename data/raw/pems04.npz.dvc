@@ -1,0 +1,5 @@
+outs:
+- md5: 5238832691101da85fcac772a32051da
+  size: 32956284
+  hash: md5
+  path: pems04.npz
