@@ -10,22 +10,11 @@ __pycache__/
 .venv/
 venv/
 
-# Data files - tracked separately through DVC
-data/raw/*
-data/interim/*
-data/processed/*
-data/external/*
-
-!data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
-!data/external/.gitkeep
-
-# Allow DVC tracking files
-!data/raw/*.dvc
-!data/interim/*.dvc
-!data/processed/*.dvc
-!data/external/*.dvc
+# NumPy datasets - tracked separately through DVC
+data/raw/*.npz
+data/interim/*.npz
+data/processed/*.npz
+data/external/*.npz
 
 # Model artifacts
 artifacts/*
