@@ -38,3 +38,8 @@ mlartifacts/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local MLflow database
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
