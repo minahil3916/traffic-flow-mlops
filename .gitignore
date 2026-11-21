@@ -39,3 +39,10 @@ Thumbs.db
 mlflow.db
 mlflow.db-shm
 mlflow.db-wal
+
+
+# Feast feature store generated data and local databases
+feature_store/data/
+feature_store/registry.db
+feature_store/registry.db-shm
+feature_store/registry.db-wal
